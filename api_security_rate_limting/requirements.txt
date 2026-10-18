@@ -4,3 +4,6 @@ slowapi
 sqlalchemy
 pymysql
 python-dotenv
+fastapi
+uvicorn
+mysql_connector_python
