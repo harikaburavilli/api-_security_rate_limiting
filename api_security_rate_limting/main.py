@@ -64,7 +64,8 @@ def secure_api(
         "requests_remaining": (
             RATE_LIMIT - len(request_counts[client_id])
         )
-    }from fastapi import FastAPI, Header, HTTPException
+    }from fastapi import FastAPI,
+Header,HTTPException
 from collections import defaultdict
 from time import time
 
